@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kauã Tavares | Portfolio</title>
+    <meta name="description" content="Portfolio de Kauã Tavares - Desenvolvedor de Software.">
+    
+    <link rel="stylesheet" href="styles.css">
+
+
+</head>
+<body>
+<!-- Background decor -->
+    <div class="bg-blur a"></div>
+    <div class="bg-blur b"></div>
+
+    <!-- Header -->
+    <header class="header">
+      <a class="logo" href="#top" aria-label="Ir para o topo">
+        <span class="logo-dot"></span> Kauã Tavares
+      </a>
+
+      <nav class="nav" aria-label="Navegação principal">
+        <button class="nav-btn" id="navBtn" aria-expanded="false" aria-controls="navMenu">
+          <span></span><span></span><span></span>
+          <span class="sr-only">Abrir menu</span>
+        </button>
+
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn ghost" href="#projetos">Ver projetos</a>
+        <a class="btn" href="#contato">Falar comigo</a>
+      </div>
+    </header>
+
+    <main id="top">
+      <!-- HERO -->
+      <section class="hero container">
+        <div class="hero-text">
+          <p class="badge">Disponível para estágio/júnior</p>
+          <h1>
+            Desenvolvedor(a) de Software<br />
+            <span class="gradient">criando produtos com foco em experiência e qualidade.</span>
+          </h1>
+          <p class="subtitle">
+            Eu sou <strong>Kauã Tavares</strong>. Curto transformar problemas reais em soluções claras,
+            com código organizado, responsivo e pensado pra crescer.
+          </p>
+
+          <div class="hero-cta">
+            <a class="btn" href="#projetos">Explorar projetos</a>
+            <a class="btn ghost" href="https://github.com/KauaTavares01" target="_blank" rel="noreferrer">
+              GitHub
+            </a>
+            <a class="btn ghost" href="https://www.linkedin.com/in/kau%C3%A3-tavares-432229298?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BMPpxGuO2TW%2BP%2BwwJbx1dmw%3D%3D" target="_blank" rel="noreferrer">
+              LinkedIn
+            </a>
+          </div>
+
+          <div class="stats">
+            <div class="stat">
+              <span class="stat-num" data-count="6">0</span>
+              <span class="stat-label">Projetos</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num" data-count="2">0</span>
+              <span class="stat-label">APIs / Backends</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num" data-count="100">0</span>
+              <span class="stat-label">Vontade (%)</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="card">
+            <div class="card-top">
+              <div class="avatar" aria-hidden="true">SN</div>
+              <div>
+                <p class="card-title">Kauã Tavares</p>
+                <p class="card-muted">Software Dev • BR</p>
+              </div>
+            </div>
+
+            <div class="card-mid">
+              <p class="card-quote">
+                “Minha prioridade é entender o problema para depois escrever o código. Tecnologia é o meio; a solução do negócio é o fim.”
+              </p>
+              <div class="tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JS</span>
+                <span class="tag">Git</span>
+              </div>
+            </div>
+
+            <div class="card-bottom">
+              <a class="mini" href="#contato">📩 Contato</a>
+              <a class="mini" href="#projetos">🧩 Projetos</a>
+              <a class="mini" href="#skills">🛠️ Skills</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================================================== Um pouco sobre mim =========================================================== -->
+      <section id="sobre" class="section container reveal">
+        <div class="section-head">
+          <h2>Sobre</h2>
+          <p>
+            Um pouco sobre como eu penso, aprendo e construo.
+          </p>
+        </div>
+
+        <div class="grid-2">
+          <div class="panel">
+            <h3>Quem eu sou</h3>
+            <p>
+               Me chamo Kauã Tavares, tenho 22 anos, sou estudante de Engenharia de Software atualmente no 6º periodo,me considero uma pessoa adaptavel a desafios,e curto pensar que tudo que eu coloco a mão tem que ter pelo menos muita dedicação, nao gosto de começar algo e acabar mal feito,e sigo a linha do “menos drama, mais entrega”:
+              entendo o problema, quebro em partes, implemento com cuidado e testo.
+            </p>
+            <p>
+              Estou buscando oportunidades para atuar na area de TI e Dev, evoluir em equipe e construir
+              projetos que saem do “funciona” pro “funciona bem”.
+            </p>
+          </div>
+
+          <div class="panel">
+            <h3>O que você vai ver aqui</h3>
+            <ul class="list">
+              <li>Projetos com link ao vivo + repositório</li>
+              <li>Descrição curta e objetiva do que foi feito</li>
+              <li>Skills e ferramentas que uso no dia a dia</li>
+            </ul>
+
+            <div class="note">
+              <p><strong>Dica:</strong> "Tecnologias mudam, mas a lógica é universal; foco em dominar os fundamentos para aprender qualquer stack com a velocidade que o negócio exige."
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJETOS -->
+      <section id="projetos" class="section container reveal">
+        <div class="section-head">
+          <h2>Projetos</h2>
+          <p>Alguns trabalhos que eu consigo mostrar com orgulho !.</p>
+        </div>
+
+        <div class="projects">
+          <!-- Projeto 1 -->
+          <article class="project">
+            <div class="project-top">
+              <h3>CineWeb</h3>
+              <p class="muted">Sistema de cinema: filmes, sessões e compra de ingresso.</p>
+            </div>
+
+            <div class="project-body">
+              <ul class="chips">
+                <li>HTML</li><li>CSS</li><li>JS</li><li>TypeScript</li> <li>Node</li> <li>API</li>
+              </ul>
+              <p>
+                Projeto focado em fluxo real de usuário: escolher filme, ver sessões e comprar ingresso.
+                Trabalhei em organização do front, validações e experiência.
+              </p>
+            </div>
+
+            <div class="project-links">
+              <a class="btn small" href="https://github.com/KauaTavares01/Cinema-web_react_P2" target="_blank" rel="noreferrer">Ver online</a>
+              <a class="btn ghost small" href="https://github.com/KauaTavares01/Cinema-web_react_P2.git " target="_blank" rel="noreferrer">Código</a>
+            </div>
+          </article>
+          <!-- Projeto 2 -->
+          </article>
+
+                    <article class="project">
+            <div class="project-top">
+              <h3> Gestão De Funcionarios </h3>
+              <p class="muted">Cadastro e gerenciamento de Funcionarios.</p>
+            </div>
+
+            <div class="project-body">
+              <ul class="chips">
+                <li>HTML</li><li>CSS</li><li>JS</li>
+              </ul>
+              <p>
+                Este é um sistema de gerenciamento de Funcionarios, ele é um formulario onde se coloca  Nome, Idade , Cargo , Salario  no Intuito de simular medias salariais, pessoas e cargos.
+              </p>
+            </div>
+
+            <div class="project-links">
+              <a class="btn small" href="https://kauatavares01.github.io/Formulario-Funcionario/" target="_blank" rel="noreferrer">Ver online</a>
+              <a class="btn ghost small" href="https://github.com/KauaTavares01/Formulario-Funcionario.git" target="_blank" rel="noreferrer">Código</a>
+            </div>
+          </article>
+
+
+          <!-- Projeto 3 -->
+          <article class="project">
+            <div class="project-top">
+              <h3>Gerenciador de Cursos </h3>
+              <p class="muted">Sistema de Gestao de Cursos tendo: Cursos,Disciplinas,Aulas e Professores </p>
+            </div>
+
+            <div class="project-body">
+              <ul class="chips">
+                <li>Java</li><li>SQL</li><li>REST</li><li>Spring-boot</li><li>JPA</li>
+              </ul>
+              <p>
+                Backend com rotas REST, validações e persistência em banco. O foco foi
+                separar camadas e manter o código fácil de manter,e ter uma boa organização.
+              </p>
+            </div>
+
+            <div class="project-links">
+              <a class="btn small" href="https://github.com/KauaTavares01/Sys_Gerenciamento-de-Cursos-Universitarios" target="_blank" rel="noreferrer">Ver online</a>
+              <a class="btn ghost small" href="https://github.com/KauaTavares01/Sys_Gerenciamento-de-Cursos-Universitarios" target="_blank" rel="noreferrer">Código</a>
+            </div>
+          </article>
+
+          <!-- Projeto 4 -->
+          <article class="project">
+            <div class="project-top">
+              <h3>Gerenciamento de Medicamentos</h3>
+              <p class="muted">Cadastro de Medicamentos com informações como código, nome, preço, validade e fornecedor.</p>
+            </div>
+
+            <div class="project-body">
+              <ul class="chips">
+                <li>Java</li><li>JavaFX</li><li>Scennebuilder</li>
+              </ul>
+              <p>
+                Este é um sistema de gerenciamento de medicamentos, desenvolvido em Java com JavaFX, que permite cadastrar, consultar, excluir e listar medicamentos. O projeto utiliza persistência de dados em um arquivo CSV e realiza operações CRUD básicas com validações.
+              </p>
+            </div>
+
+            <div class="project-links">
+              <a class="btn small" href="https://github.com/KauaTavares01/Gerenciamento_de_Medicamentos.git" target="_blank" rel="noreferrer">Ver online</a>
+              <a class="btn ghost small" href="https://github.com/KauaTavares01/Gerenciamento_de_Medicamentos.git" target="_blank" rel="noreferrer">Código</a>
+            </div>
+
+            <!-- Projeto 5 -->
+          </article>
+
+                    <article class="project">
+            <div class="project-top">
+              <h3>DevTech Academy </h3>
+              <p class="muted">Cadastro e gerenciamento de alunos com informações como nome, idade, nota final e curso .</p>
+            </div>
+
+            <div class="project-body">
+              <ul class="chips">
+                <li>HTML</li><li>CSS</li><li>JS</li>
+              </ul>
+              <p>
+                Este é um sistema de gerenciamento de Alunos, ele é um formulario onde se coloca Nome,Idade, Curso, Nota final , no Intuito de Listar Alunos, e simular aprovação ou reprovação. 
+              </p>
+            </div>
+
+            <div class="project-links">
+              <a class="btn small" href="https://kauatavares01.github.io/EC---Formulario-Alunos/" target="_blank" rel="noreferrer">Ver online</a>
+              <a class="btn ghost small" href="https://github.com/KauaTavares01/EC---Formulario-Alunos.git" target="_blank" rel="noreferrer">Código</a>
+            </div>
+          </article>
+
+          </article>
+
+                    <article class="project">
+            <div class="project-top">
+              <h3>CineKakau </h3>
+              <p class="muted">Sistema de Cinema Simples, produzido para simular cadastro de Filmes</p>
+            </div>
+
+            <div class="project-body">
+              <ul class="chips">
+                <li>HTML</li><li>CSS</li><li>JS</li>
+              </ul>
+              <p>
+                Sistema para simulação de Organização de Filmes em um cinema, onde se cadastra filmes com nome, duração, classificação etária e gênero.
+              </p>
+            </div>
+
+            <div class="project-links">
+              <a class="btn small" href=https://kauatavares01.github.io/Cinema-Projeto-web/" target="_blank" rel="noreferrer">Ver online</a>
+              <a class="btn ghost small" href="https://github.com/KauaTavares01/Cinema-Projeto-web.git" target="_blank" rel="noreferrer">Código</a>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills" class="section container reveal">
+        <div class="section-head">
+          <h2>Skills</h2>
+          <p>Ferramentas que eu uso pra construir e evoluir projetos.</p>
+        </div>
+
+        <div class="skills">
+          <div class="skill">
+            <h3>Frontend</h3>
+            <p class="muted">HTML • CSS • JavaScript • TypeScript • React  • Responsivo</p>
+          </div>
+          <div class="skill">
+            <h3>Backend</h3>
+            <p class="muted">Node.js • Express.js • Java • APIs REST • Python: Validações</p>
+          </div>
+          <div class="skill">
+            <h3>Banco</h3>
+            <p class="muted">SQL • PostgreSQL • MySQL. • Modelagem • Normalização  </p>
+          </div>
+          <div class="skill">
+            <h3>Workflow</h3>
+            <p class="muted">Git • GitHub • Commits organizados</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTATO -->
+      <section id="contato" class="section container reveal">
+        <div class="section-head">
+          <h2>Contato</h2>
+          <p>Quer conversar? Eu respondo rápido, fique à vontade para me chamar em qualquer um desses contatos !!.</p>
+        </div>
+
+        <div class="contact">
+          <div class="panel">
+            <h3>Me encontre</h3>
+            <div class="contact-links">
+              <a class="contact-link" href="mailto:kauatavares17@gmail.com">📧 kauatavares17@gmail.com</a>
+              <a class="contact-link" href="https://github.com/KauaTavares01" target="_blank" rel="noreferrer">🐙 GitHub</a>
+              <a class="contact-link" href="https://www.linkedin.com/in/kau%C3%A3-tavares-432229298?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BMPpxGuO2TW%2BP%2BwwJbx1dmw%3D%3D" target="_blank" rel="noreferrer">💼 LinkedIn</a>
+              <a class="contact-link" href="https://drive.google.com/file/d/14AeqI2nic65ckFyMG8ZfZhVwFdlFUO0Z/view?usp=drive_link" target="_blank" rel="noreferrer">💼 Curriculo</a>
+              
+            </div>
+
+          </div>
+
+          <form class="panel form" onsubmit="return false;">
+            <h3>Mensagem rápida</h3>
+            <label>
+              Nome
+              <input type="text" placeholder="Seu nome" />
+            </label>
+            <label>
+              Email
+              <input type="email" placeholder="seuemail@exemplo.com" />
+            </label>
+            <label>
+              Mensagem
+              <textarea rows="4" placeholder="Me conte sobre a vaga/projeto..."></textarea>
+            </label>
+            <button class="btn" id="copyEmail">Copiar meu email</button>
+            <p class="muted tiny" id="copyStatus" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+
+      <footer class="footer container">
+        <p>© <span id="year"></span> Kauã Tavares. Feito com HTML + CSS + JS.</p>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
